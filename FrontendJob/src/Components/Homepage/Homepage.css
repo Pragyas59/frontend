@@ -1,0 +1,55 @@
+.homePage {
+
+
+  display: flex;
+  flex-direction: column;
+}
+.backgroundImage {
+
+ 
+  background: url('../Assets/Banner.png');
+  height:100vh;
+
+
+
+}
+.img{
+  position: relative;
+  top: -135px;
+  z-index: -1;
+
+}
+
+.left-section {
+  position: fixed; 
+  bottom: 0; 
+  left: 0; 
+  padding: 50px;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 20px;
+  margin-left: 40px;
+}
+
+.left-section h1,
+.left-section p,
+.left-section a {
+  margin-top: 0;
+   
+}
+.left-section a{
+  color: white;
+  text-decoration: none;
+}
+.right-section {
+  padding-bottom: 500px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+
+
+}
+.logos ,.secondLogo {
+  margin-right: 20px; 
+  position: fixed;
+}

@@ -1,0 +1,62 @@
+
+
+.container{
+  border-bottom: 2px solid white;
+}
+.navbar_section{
+  background: url('../Assets/Banner.png')no-repeat;
+  background-size: cover;
+  height: 100vh;
+  border-bottom: 1px solid rgb(227, 207, 207);
+  width: 100%;
+  
+   
+}
+.why_choose{
+position: absolute;
+color: white;
+bottom: 120px;
+}
+.custome_nav{
+  gap: 60px;
+}
+.navbar_section{
+  position: relative;
+  
+}
+.nav-links {
+  list-style-type: none;
+  margin: -30px;
+  padding-left: 12px;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  top: 0px;
+ 
+}
+
+.nav-links li {
+  
+  padding: 15px;
+}
+
+.nav-links li:nth-last-child(2) {
+  margin-left: 600px; 
+}
+
+.nav-links li:last-child {
+  margin-left: auto;
+}
+
+.logo {
+  margin-left: 80px; /* Add margin to the left of the logo */
+}
+
+.nav-links li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}

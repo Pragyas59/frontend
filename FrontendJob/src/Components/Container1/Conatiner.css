@@ -1,0 +1,387 @@
+.container h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.container p {
+  font-size: 16px;
+  line-height: 1.5;
+  position: relative;
+}
+
+.blue_container {
+  padding: 20px; 
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+  background-color: #09334a;
+  color: white;
+ 
+}
+.four_card_section{
+  background-color: #09334a;
+}
+
+.blue_container:nth-child(3) {
+  padding-left: 12px;
+}
+
+.conatiner1 {
+  display: flex;
+  justify-content: space-between; 
+}
+
+.right-section img {
+  width: 1015px;
+  height: 942px;
+  top: 1000px;
+  left: 862px;
+  gap: 0px;
+  opacity: 0px;
+  margin-top: -12px;
+  filter: brightness(50%)
+  
+}
+
+.row1 {
+  font-family: Oswald;
+  font-size: 64px;
+  font-weight: 200;
+  line-height: 89.6px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  margin-left: 156px;
+  margin-top: 67px;
+}
+
+.stayconnected {
+  color: rgb(175, 72, 35);
+}
+
+.buisness {
+  opacity: 0px;
+  font-size: 24px;
+  margin-left: 3px;
+  gap: 0px;
+}
+
+.line3{
+  width: 235px;
+height: 5px;
+top: 1240px;
+left: 625px;
+gap: 0px;
+border: 6px 0px 0px 0px;
+opacity: 0px;
+margin-left: 478px;
+
+}
+.vertical-line {
+  width: 4px; 
+  height: 15%; 
+  background-color: black;
+  display: inline-block; 
+  margin-left: 10px;
+  margin-left: 1024px;
+    margin-top: -135px; }
+
+.Industry{
+  width: 340px;
+  height: 29px;
+  top: 1715px;
+  left: 226px;
+  gap: 0px;
+  opacity: 0px;
+  font-size: 29px;
+  margin-left: 20px;
+  
+}
+.message1{
+  width: 25px;
+height: 27.08px;
+top: 1724.58px;
+left: 157.67px;
+gap: 0px;
+border: 2px 0px 0px 0px;
+opacity: 0px;
+margin-left: -15px;
+    margin-top: 19px;
+}
+
+
+.membership-container {
+  position: relative; 
+  margin-left: 3px;
+}
+
+.circle {
+  position: absolute; 
+  top: 28%; 
+  left: 2%; 
+  transform: translate(-50%, -50%); 
+  z-index: 1;
+ }
+
+
+.beyond {
+  display: block;
+  margin-top: -42px;
+    margin-left: 13px; 
+}
+.membership{
+  font-weight: 500;
+  font-size: 29px;
+  margin-left: 53px;
+}
+
+.p {
+  margin-left: 110px;
+  margin-right: 120px;
+  font-size: 18px;
+  line-height: 2;
+  width: 543px;
+  height: 360px;
+  top: 1279px;
+  left: 226px;
+  gap: 0px;
+  margin-top: -104px;
+  color: rgb(133, 119, 119);
+}
+.background1{
+  width: 1681px;
+    height: 1341px;
+    top: 2150px;
+    left: 4px;
+    gap: 0px;
+    opacity: 0px;
+    margin-top: -500px;
+
+}
+.row2-p{
+  color: white;
+  z-index: 1;
+}
+.business_logo{
+  background: url('../Assets/buisness.png') no-repeat;
+  margin-top: 60px;
+ 
+}
+
+.business_logo p{
+  line-height: 36px;
+  margin-top: 40px;
+}
+.industry_logo{
+  background: url('../Assets/message_icon.png') no-repeat;
+  height: 50px;
+  margin-top: 80px;
+}
+.Association_member{
+  background: url('../Assets/membership-logo.png'),url('../Assets/beyond.png'),url('../Assets//circle.png');
+  background-position: left top,10px 18px,12px 8px;
+  background-repeat: no-repeat;
+  height: 50px;
+}
+.connect_background{
+  background: url('../Assets/real.png') no-repeat right ;
+  background-size: contain;
+
+  
+}
+.stay_connected{
+  color: #F36F2B;
+  font-size: 64px;
+  font-weight: 200;
+}
+.main_heading{
+  margin-top: 60px;
+}
+.main_heading h2
+{
+  font-size: 64px;
+  font-weight: 200;
+}
+.second_background{
+  background-color: #112c41;
+  padding-top: 60px;
+
+}
+.case{
+  color: white;
+  font: Inter;
+  font-weight: 400;
+}
+.values{
+  color: white;
+  font: Inter;
+  font-weight: 400;
+}
+.strategic{
+  color: white;
+   font: Inter;
+   font-weight: 700;
+}
+.diversity{
+  color:  #F36F2B;
+  font: Oswald;
+  font-weight: 200;
+  
+}
+.believe{
+  color: white;
+  font: Oswald;
+  font-weight: 200;
+}
+
+.grid-container {
+  display: grid;
+    gap: 10px;
+  
+    padding: 10px;
+   
+    grid-template-columns: 1.5fr 1fr 1fr;
+}
+.grid-item {
+
+  font-size: 30px;
+  text-align: center;
+
+
+ 
+}
+.item6{
+  margin-left: -180px;
+}
+.item4{
+  width: 400px !important;
+}
+.item5{
+width: 500px;
+margin-left: -180px;
+}
+
+.third{
+  padding-left: 400px;
+}
+
+.employee{
+  font:Oswald;
+  font-weight: 200;
+  letter-spacing: -2%;
+  font-family: fantasy ;
+  
+}
+.Appreciation{
+  color: #F36F2B;
+  font-family: fantasy;
+}
+
+
+.image1 {
+  width: 726px;
+  height: 283px;
+}
+.image2{
+  margin-top: 20px;
+  padding-left: 12px;
+  height: 487px;
+  width: 760px;
+
+}
+.image3{
+  margin-top: 20px;
+  padding-left:111px;
+}
+
+
+.fourth{
+  padding-top: 123px;
+}
+.item1 {
+  grid-column:1/2;
+}
+.item3{
+ grid-column-start: 3;
+ grid-row-start: 1;
+ grid-row-end: 3;
+
+}
+
+.item4{
+  grid-row-start: 2;
+  grid-row-end:4;
+}
+
+.item6{
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+
+
+
+
+.fourth-section{
+  background-color: #112c41;
+}
+
+.group8{
+  color: white;
+}
+.group8-a{
+  color: white;
+  margin-top: -30px;
+
+}
+.group8-b{
+  color: white;
+  margin-top: -35px;
+}
+
+
+.story{
+  color: white;
+  padding-left: 49px;
+  margin-top: -31px;
+}
+
+.image8{
+  padding-top: 178px;
+  padding-left: 116px;
+  padding-bottom: 232px;
+}
+.comma{
+padding-top: 170px;
+}
+.As{
+  margin-top: 123px;
+  padding-left: 141px;
+  font-size: 48px;
+  font-weight: 500;
+}
+.job{
+
+  margin-top: -21px;
+  padding-left: 423px;
+}
+.global{
+  color: #F36F2B;
+}
+.open-roles{
+  margin-left: 487px;
+  color: #F36F2B;
+}
+.arrow1{
+  padding-left: 625px;
+    margin-top: -65px;
+    
+}
+.map{
+
+height: 700px;
+width: 138px;
+}
+.footer{
+  height: 110%;
+  width: 100%;
+}
